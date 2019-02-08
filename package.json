@@ -1,24 +1,24 @@
 {
-  "name": "nuxtssrappkoa2",
-  "version": "1.0.0",
-  "description": "My peachy Nuxt.js project",
-  "author": "g",
-  "private": true,
-  "scripts": {
-    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
-    "build": "nuxt build",
-    "start": "cross-env NODE_ENV=production node server/index.js",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.3.4",
-    "koa": "^2.6.2",
-    "iview": "3.1.5",
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/pwa": "^2.6.0"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.9"
-  }
+	"name": "nuxtssrappkoa2",
+	"version": "1.0.0",
+	"description": "My peachy Nuxt.js project",
+	"author": "g",
+	"private": true,
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+		"build": "nuxt build",
+		"start": "cross-env NODE_ENV=production node server/index.js",
+		"generate": "nuxt generate"
+	},
+	"dependencies": {
+		"cross-env": "^5.2.0",
+		"nuxt": "^2.3.4",
+		"koa": "^2.6.2",
+		"iview": "3.1.5",
+		"@nuxtjs/axios": "^5.3.6",
+		"@nuxtjs/pwa": "^2.6.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.18.9"
+	}
 }
